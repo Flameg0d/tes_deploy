@@ -10,10 +10,10 @@ export default function TechlabLandingPage() {
           <h1 className="text-xl font-bold">TECHLAB</h1>
         </div>
         <ul className="flex gap-8 text-gray-800 font-medium">
-          <li><a href="#">Institute</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Hiring Network</a></li>
-          <li><a href="#">Media</a></li>
+          <li><a href="/">Institute</a></li>
+          <li><a href="/">Program</a></li>
+          <li><a href="/">Hiring Network</a></li>
+          <li><a href="/">Media</a></li>
         </ul>
         <button className="bg-red-600 text-white font-semibold px-6 py-2 rounded">Daftar</button>
       </nav>
