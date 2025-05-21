@@ -9,12 +9,25 @@ import Berita3 from "./components/Berita3/Berita3";
 import Berita4 from "./components/Berita4/Berita4";
 import Berita5 from "./components/Berita5/Berita5";
 
+import About from "./pages/About"; 
+import Media from "./pages/Media"; 
+
+
+const JoinUs = () => <div></div>;
+const Home = () => <div></div>;
+
+
 const App = () => {
   return (
     <Router>
       <Navbar />
       <Routes>
+
         <Route path="/" element={<MainPage />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/joinus" element={<JoinUs />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/media" element={<Media />} />
         <Route path="/news" element={<News />} />
         <Route path="/berita1" element={<Berita1 />} />
         <Route path="/berita2" element={<Berita2 />} />
