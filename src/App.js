@@ -10,7 +10,7 @@ import Berita5 from "./components/Berita5/Berita5";
 import About from "./pages/About"; 
 import Media from "./pages/Media"; 
 
-const Media = () => <div></div>;
+
 const JoinUs = () => <div></div>;
 const Home = () => <div></div>;
 
