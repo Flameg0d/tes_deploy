@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
 
 
 // Hero Component
@@ -56,7 +55,7 @@ const Join = () => {
           Siap berkembang di dunia teknologi? Daftar sekarang dan jadi bagian dari gerakan digital!
         </p>
         
-        <form action="https://formsubmit.co/maxrahadian@gmail.com" method="POST" className="space-y-5">
+        <form action="https://formsubmit.co/suratmaknakarya@gmail.com" method="POST" className="space-y-5">
           {/* Anti-bot & Redirect (optional) */}
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="email" required />
@@ -108,10 +107,10 @@ const Join = () => {
 function Sidebar() {
   return (
     <nav className="fixed top-4 right-1/2 transform translate-x-1/2 flex flex-row justify-center space-x-10 z-50">
-      <a href="#hero" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Hero</a>
-      <a href="#about" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">About</a>
-      <a href="#media" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Media</a>
-      <a href="#join" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Join</a>
+      <a href="#hero" className="text-blue-600 hover:underline transition">Hero</a>
+      <a href="#about" className="text-blue-600 hover:underline transition">About</a>
+      <a href="#media" className="text-blue-600 hover:underline transition">Media</a>
+      <a href="#join" className="text-blue-600 hover:underline transition">Join Us</a>
     </nav>
   );
 }
