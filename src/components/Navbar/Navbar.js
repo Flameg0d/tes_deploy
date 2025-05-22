@@ -12,9 +12,16 @@ const Navbar = () => {
         </div>
 
         <div className="flex space-x-4">
-          <Link to="/" className="text-xl text-black hover:text-gray-500">Home</Link>
-          <Link to="/news" className="text-xl text-black hover:text-gray-500">News</Link>      
-        </div>
+
+          <Link to="/" className="text-xl text-black hover:text-gray-500"
+            onClick={() => window.scrollTo(0, 0)}
+          >Home</Link>
+
+          <Link to="/news" className="text-xl text-black hover:text-gray-500"
+             onClick={() => window.scrollTo(0, 0)}
+          >News</Link>      
+           
+      </div>
       </nav>
     </section>
   );
