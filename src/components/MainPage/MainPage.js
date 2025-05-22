@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 
-
 // Hero Component
 function Hero() {
   return (
-    <section id="hero" className="bg-blue-600 text-white py-20 px-6 text-center mr-20">
+    <section className="bg-blue-600 text-white py-20 px-6 text-center mr-20">
       <h1 className="text-4xl md:text-5xl font-bold mb-4">HERO SECTION</h1>
      </section>
   );
@@ -107,7 +106,6 @@ const Join = () => {
 function Sidebar() {
   return (
     <nav className="fixed top-4 right-1/2 transform translate-x-1/2 flex flex-row justify-center space-x-10 z-50">
-      <a href="#hero" className="text-blue-600 hover:underline transition">Hero</a>
       <a href="#about" className="text-blue-600 hover:underline transition">About</a>
       <a href="#media" className="text-blue-600 hover:underline transition">Media</a>
       <a href="#join" className="text-blue-600 hover:underline transition">Join Us</a>
